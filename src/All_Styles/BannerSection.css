@@ -1,0 +1,1171 @@
+html {
+    font-size: 62.5%;
+}
+
+.myMT{
+    margin-top: 47px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.Content_container {
+    flex: 1;
+    /* background-color: #f0f0f0; */
+    padding: 1rem 1.6rem;
+}
+
+.img_container {
+    flex: 1;
+    /* background-color: #e0e0e0; */
+}
+
+.img_container img {
+    width: 78%;
+}
+
+
+
+.rating {
+    background: #D6FFD2;
+    width: 57%;
+    border-radius: 1rem;
+    text-align: center;
+    color: #1B5741;
+    padding: .5rem 0;
+    font-size: 1.6rem;
+}
+
+.get_reliable {
+    font-family: Source Serif Pro;
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 6.0rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #021746;
+}
+
+.Quality {
+    font-family: Source Serif Pro;
+    font-size: 6.0rem;
+    font-weight: 400;
+    line-height: 7.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #007CBA;
+}
+
+.doorstep {
+    font-family: Source Serif Pro;
+    font-size: 4.8rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 5.6rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #021746;
+}
+
+.care_description {
+    font-family: Source Sans Pro;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #797979;
+}
+
+.btn-success {
+    background-color: #E69700 !important;
+    color: white !important;
+}
+
+.btn-success:hover {
+    background-color: #0C2F62 !important;
+    color: white !important;
+}
+
+.btn {
+    border-radius: 6.6rem !important;
+    border: none;
+}
+
+
+.image_container_bannerSection {
+    position: relative;
+}
+
+.overlay_bannerSection {
+    position: absolute;
+    top: 37.4rem;
+    left: 18.8rem;
+    width: 66%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.overlay_bannerSection h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.overlay_bannerSection p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 80%;
+}
+
+.image_container_bannerSection img {
+    width: 100%;
+}
+
+.overlay_bannerSection_content {
+    position: absolute;
+    top: 39.2rem;
+    left: 20.2rem;
+    width: 62%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+}
+
+.banner_section_hourN {
+    font-family: Source Serif Pro;
+    font-size: 5.0rem;
+    font-weight: 400;
+    line-height: 6.3rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #AD6800;
+}
+
+.banner_section_hour {
+    font-family: Source Serif Pro;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.0rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #AD6800;
+}
+
+.banner_section_icon {
+    color: #AD6800;
+    height: 3.5rem;
+    width: 3.5rem;
+    left: .2rem;
+    top: .2rem;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.banner_section_content {
+    font-family: Source Sans Pro;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #626262;
+}
+
+.buttons_container button {
+    font-size: 1.8rem;
+}
+
+
+
+/* Media queries start */
+
+@media screen and (min-width:300px) and (max-width:705px) {
+  
+    .Desktop_ON{
+        display: none;
+    }
+}
+
+@media screen and (min-width:705px) and (max-width:1920px) {
+  
+    .MobileON{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rating {
+        width: 100%;
+    }
+
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 2.9vw;
+        font-weight: 400;
+        line-height: 1.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+
+
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 7vw;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .Content_container {
+        flex: 1;
+        /* background-color: #f0f0f0; */
+        padding: 1rem 0rem 4rem 0;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 100%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 1.4rem;
+    }
+
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 3.8rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 3.8rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 5.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .care_description {
+        font-family: Source Sans Pro;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+    }
+
+    .banner_section_hour {
+        font-family: Source Serif Pro;
+        font-size: 5vw;
+        font-weight: 400;
+        line-height: 3.0rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 60.4vw;
+        left: 30.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 63.5vw;
+        left: 32.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+
+    .buttons_container button {
+        font-size: 1.4rem;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    #get_reliable2 {
+        font-family: Source Serif Pro;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 4.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 330px){
+.buttons_container button {
+    font-size: 1.2rem;
+}
+}
+
+
+
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 31.5vw;
+        left: 16.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.2vw;
+        font-weight: 400;
+        line-height: 1.2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 90%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 1.6rem;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 4.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Source Sans Pro;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+    }
+
+
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+
+    #get_reliable2 {
+        font-family: Source Serif Pro;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 629px){
+    .buttons_container button {
+        font-size: 1.5rem;
+    }
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 586px){
+        .doorstep {
+            font-size: 4.7rem;
+           
+        }
+        }
+    
+
+
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 31.5vw;
+        left: 16.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.3vw;
+        font-weight: 400;
+        line-height: 1.2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 66%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 1.6rem;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 7.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Source Sans Pro;
+        font-size: 2.6rem;
+        font-weight: 400;
+        line-height: 5.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+    }
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 5.8rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 5.8rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 7.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+    #get_reliable2 {
+        font-family: Source Serif Pro;
+        font-size: 4.5rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+}
+
+
+
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 32.5vw;
+        left: 17.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.8vw;
+        font-weight: 400;
+        line-height: 2.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 66%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 1.6rem;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 7.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Source Sans Pro;
+        font-size: 2.6rem;
+        font-weight: 400;
+        line-height: 5.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+    }
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 5.8rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 5.8rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 7.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+}
+
+
+
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 32.2vw;
+        left: 17.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.5vw;
+        font-weight: 400;
+        line-height: 3.2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 66%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 2.6rem;
+        margin-top: 31px;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 6rem;
+        font-weight: 400;
+        line-height: 9.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Future PT;
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 4.1rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        margin-top: 20px;
+        max-width: 57rem;
+    }
+    
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+        margin-top: 30px;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 48px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .buttons_container button {
+        font-size: 24px;
+    }
+
+    .buttons_container{
+        margin-top: 35px;
+    }
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+   
+}
+
+
+
+
+@media screen and (min-width:1401px) and (max-width:1600px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 32.2vw;
+        left: 17.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.5vw;
+        font-weight: 400;
+        line-height: 3.2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 66%;
+        border-radius: 2rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.9rem 0;
+        font-size: 2.6rem;
+        margin-top: 53px;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 7.4rem;
+        font-weight: 400;
+        line-height: 9.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Futura PT;
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 4rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        margin-top: 20px;
+        width: 58rem;
+    }
+
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 5.9rem;
+        font-weight: 400;
+        line-height: 6.0rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+        margin-top: 45px;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 5.9rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 7.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .buttons_container button {
+        font-size: 3rem;
+    }
+
+    .buttons_container{
+        margin-top: 33px;
+    }
+
+
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width:1600px) and (max-width:1800px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 32.2vw;
+        left: 17.2vw;
+        width: 62%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.9vw;
+        font-weight: 400;
+        line-height: 3.2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 66%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 2.6rem;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 9rem;
+        font-weight: 400;
+        line-height: 9.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Source Sans Pro;
+        font-size: 4.2rem;
+        font-weight: 400;
+        line-height: 7.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        margin-top: 20px;
+    }
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 9rem;
+        font-weight: 400;
+        line-height: 10rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+        margin-top: 45px;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 9rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 7.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .buttons_container button {
+        font-size: 3.2rem;
+    }
+
+    .buttons_container{
+        margin-top: 45px;
+    }
+
+
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width:1800px) and (max-width:1920px) {
+
+    .overlay_bannerSection {
+        position: absolute;
+        top: 29.4vw;
+        left: 15.2vw;
+        width: 66%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .overlay_bannerSection_content {
+        position: absolute;
+        top: 32.2vw;
+        left: 17.2vw;
+        width: 61%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* color: #fff; */
+    }
+    .banner_section_content {
+        font-family: Source Sans Pro;
+        font-size: 1.9vw;
+        font-weight: 400;
+        line-height: 4.2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #626262;
+    }
+    .banner_section_hourN {
+        font-family: Source Serif Pro;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 6.3rem;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #AD6800;
+    }
+
+    .rating {
+        background: #D6FFD2;
+        width: 66%;
+        border-radius: 1rem;
+        text-align: center;
+        color: #1B5741;
+        padding: 0.5rem 0;
+        font-size: 2.6rem;
+    }
+
+    .Quality {
+        font-family: Source Serif Pro;
+        font-size: 9rem;
+        font-weight: 400;
+        line-height: 9.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #007CBA;
+    }
+    .care_description {
+        font-family: Source Sans Pro;
+        font-size: 4.2rem;
+        font-weight: 400;
+        line-height: 7.3rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #797979;
+        margin-top: 20px;
+    }
+    .get_reliable {
+        font-family: Source Serif Pro;
+        font-size: 9rem;
+        font-weight: 400;
+        line-height: 10rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+        margin-top: 45px;
+    }
+
+    .doorstep {
+        font-family: Source Serif Pro;
+        font-size: 9rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 7.6rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #021746;
+    }
+
+    .buttons_container button {
+        font-size: 3.2rem;
+    }
+
+    .buttons_container{
+        margin-top: 45px;
+    }
+
+
+
+    html {
+        font-size: 50%;
+    }
+    .container{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+/* Media queries end */

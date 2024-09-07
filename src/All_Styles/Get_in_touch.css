@@ -1,0 +1,318 @@
+.image_container_get_in_touch {
+    position: relative;
+  }
+  
+  .image_container_get_in_touch img {
+    width: 100%;
+    height: 350px;
+  }
+  
+  .overlay_get_in_touch {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay_get_in_touch_content {
+    position: absolute;
+    top: 49px;
+    left: 110px;
+    width: 45%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+  }
+  
+  .get_in_touch_heading {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF6E6;
+  }
+  
+  .get_in_touch_description {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B1717;
+    margin: 14px 0;
+  }
+
+  .get_in_touch_btn_section button{
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+  }
+  .MTG{
+    margin-top: 50px;
+  }
+  
+
+
+
+  /* Media queries start */
+
+  @media screen and (min-width:300px) and (max-width:576px) {
+
+    .image_container_get_in_touch img{
+     height: 150px;
+    }
+
+    .overlay_get_in_touch img{
+      display: none;
+    }
+
+    .overlay_get_in_touch_content {
+      position: absolute;
+      top: 0px;
+      left: 23px;
+      width: 92%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      /* background: red; */
+  }
+
+  .get_in_touch_heading {
+    font-family: Source Serif Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 7px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF6E6;
+}
+
+.get_in_touch_description {
+  font-family: Source Sans Pro;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1717;
+  margin: 12px 0px;
+}
+.get_in_touch_btn_section button{
+  font-family: Source Serif Pro;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+
+  }
+
+
+  @media screen and (min-width:576px) and (max-width:768px) {
+
+    .image_container_get_in_touch img{
+     height: 150px;
+    }
+
+   
+    .overlay_get_in_touch_content {
+      position: absolute;
+      top: 0px;
+      left: 41px;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: self-start;
+      color: #fff;
+      /* background: red; */
+  }
+
+  .get_in_touch_heading {
+    font-family: Source Serif Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 7px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF6E6;
+}
+
+.get_in_touch_description {
+  font-family: Source Sans Pro;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1717;
+  margin: 12px 0px;
+}
+.get_in_touch_btn_section button{
+  font-family: Source Serif Pro;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+
+  }
+
+
+  @media screen and (min-width:768px) and (max-width:992px) {
+
+    .image_container_get_in_touch img{
+     height: 150px;
+    }
+
+   
+    .overlay_get_in_touch_content {
+      position: absolute;
+      top: 0px;
+      left: 41px;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: self-start;
+      color: #fff;
+      /* background: red; */
+  }
+
+  .get_in_touch_heading {
+    font-family: Source Serif Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 7px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF6E6;
+}
+
+.get_in_touch_description {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1717;
+  margin: 12px 0px;
+}
+.get_in_touch_btn_section button{
+  font-family: Source Serif Pro;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+  }
+
+
+  @media screen and (min-width:1500px) and (max-width:1700px) {
+    .get_in_touch_heading {
+      font-family: Source Serif Pro;
+      font-size: 38px;
+      font-weight: 600;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFF6E6;
+  }
+
+  .get_in_touch_description {
+    font-family: Source Sans Pro;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B1717;
+    margin: 23px 0;
+}
+
+.get_in_touch_btn_section button {
+  font-family: Source Serif Pro;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.overlay_get_in_touch_content {
+  position: absolute;
+  top: 99px;
+  left: 110px;
+  width: 45%;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+  }
+
+  @media screen and (min-width:1700px) and (max-width:1920px) {
+    .get_in_touch_heading {
+      font-family: Source Serif Pro;
+      font-size: 39px;
+      font-weight: 600;
+      line-height: 45px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFF6E6;
+  }
+
+  .get_in_touch_description {
+    font-family: Source Sans Pro;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B1717;
+    margin: 25px 0;
+}
+
+.get_in_touch_btn_section button {
+  font-family: Source Serif Pro;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.overlay_get_in_touch_content {
+  position: absolute;
+  top: 99px;
+  left: 110px;
+  width: 45%;
+  height: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+  }
+
+  /* Media queries end */

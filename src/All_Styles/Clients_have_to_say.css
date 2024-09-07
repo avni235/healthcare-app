@@ -1,0 +1,1339 @@
+.Hear_what {
+  font-family: Source Serif Pro;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0c2f62;
+}
+
+.Real_stories {
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4f5059;
+}
+
+.grid-container_clients_have_to_say {
+  display: grid;
+  grid-template-columns: 380px 380px 380px;
+  /* background-color: #2196F3; */
+}
+
+.grid-item_clients_have_to_say {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 20px; */
+  font-size: 30px;
+  text-align: center;
+}
+
+.image-container_clients_have_to_say {
+  position: relative;
+  width: 380px;
+  height: 460px;
+}
+
+.overlay_clients_have_to_say {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  width: 100%;
+  height: 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.clients_have_to_say_content {
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #041022;
+  width: 246px;
+}
+
+.overlay_clients_have_to_say_img {
+  position: absolute;
+  top: 331px;
+  left: 7px;
+  width: 24%;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay_clients_have_to_say_icon {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  width: 24%;
+  height: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay_clients_have_to_say_name {
+  position: absolute;
+  bottom: 31px;
+  left: 129px;
+  width: 51%;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client_name {
+  font-family: Source Serif Pro;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a080c1;
+}
+
+.client_location {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #565656;
+}
+
+.clients_cards_flex_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MTClient{
+  margin-top: 50px;
+}
+
+/* media queries start */
+
+@media screen and (min-width: 300px) and (max-width: 360px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 8%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 280px;
+    height: 345px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 246px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 242px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 25px;
+    left: 87px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 400px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 11%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 327px;
+    height: 406px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 246px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 284px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 43px;
+    left: 87px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 11%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 327px;
+    height: 406px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 246px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 284px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 43px;
+    left: 87px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 576px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 20px;
+    left: 49px;
+    width: 11%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 416px;
+    height: 501px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 246px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 363px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 34px;
+    left: 114px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    width: 11%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 269px;
+    height: 313px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 246px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 16px;
+    left: 89px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+
+  .Third_card {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    width: 11%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 269px;
+    height: 313px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 246px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 235px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 16px;
+    left: 89px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+
+  .Third_card {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 992px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    width: 9%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 243px;
+    height: 313px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 206px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 32px;
+    left: 8px;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 210px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: 29px;
+    left: 89px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .client_name {
+        font-family: Source Serif Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #A080C1;
+    }
+
+    .client_location {
+        font-family: Source Sans Pro;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #565656;
+    }
+
+    .Third_card1 {
+        display: none;
+    }
+    .Third_card {
+        display: block;
+    }
+
+
+}
+
+  
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    width: 9%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 290px;
+    height: 313px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 206px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 49px;
+    left: 8px;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 258px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: -14px;
+    left: 89px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+
+  .Third_card1 {
+    display: none;
+  }
+
+  .Third_card1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .Third_card1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .Third_card1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .Third_card1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1920px) {
+  .clients_cards_flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Hear_what {
+    font-family: Source Serif Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0c2f62;
+    padding-left: 10px;
+  }
+
+  .Real_stories {
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4f5059;
+    padding-left: 10px;
+  }
+
+  .image-container_clients_have_to_say img {
+    width: 100%;
+  }
+
+  .overlay_clients_have_to_say_icon {
+    position: absolute;
+    top: 14px;
+    left: 46px;
+    width: 10%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container_clients_have_to_say {
+    position: relative;
+    width: 480px;
+    height: 460px;
+  }
+
+  .clients_have_to_say_content {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #041022;
+    width: 300px;
+  }
+
+  .overlay_clients_have_to_say {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .overlay_clients_have_to_say_img {
+    position: absolute;
+    top: 428px;
+    left: 7px;
+    width: 24%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay_clients_have_to_say_name {
+    position: absolute;
+    bottom: -69px;
+    left: 144px;
+    width: 51%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client_name {
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #a080c1;
+  }
+
+  .client_location {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #565656;
+  }
+
+  .Third_card1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2100px) {
+  .Third_card1 {
+    display: none;
+  }
+}
+
+/* media queries end */

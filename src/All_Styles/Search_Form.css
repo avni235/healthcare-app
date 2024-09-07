@@ -1,0 +1,923 @@
+.search_form_container {
+  display: flex;
+  background-color: #f8fcff;
+}
+
+.search_container {
+  flex: 2;
+  /* background-color: #f0f0f0; */
+}
+
+.Form_main_container {
+  flex: 1;
+  /* background-color: #e0e0e0; */
+}
+
+.callus_btn {
+  width: 254px;
+}
+
+.Have_a_query {
+  font-family: Source Serif Pro;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E3500;
+}
+
+.We_are_here {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5D671A;
+}
+
+.form_Heaader_content_container {
+  background: #F5F5F5;
+  padding: 20px 20px;
+}
+
+.form_body {
+  background: #F5F5F5;
+  padding: 37px 20px 23px 20px;
+}
+
+.location_input::placeholder, .caregivers_input::placeholder, .HomePage_Form::placeholder{
+  font-size: 1.5rem;
+}
+
+.right_arrow_icon_search {
+  font-size: 2rem;
+}
+
+.input-group-text {
+  font-size: 2rem;
+ 
+}
+
+.form-control {
+  font-size: 2.5rem;
+}
+
+.find_caregivers {
+  font-family: Source Serif Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C3C3C;
+  margin-bottom: 23px;
+}
+
+.caregivers_filters_container {
+  border-radius: 48px;
+  border: 1px solid #0d6efd;
+  width: 93%;
+  padding: 7px;
+}
+
+.left_location_icon,
+.caregivers_search {
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 8.375rem;
+}
+
+.location_input:focus,
+.caregivers_input:focus {
+  box-shadow: none;
+}
+
+.location_input {
+  border: none;
+  border-radius: 2.375rem;
+}
+
+.caregivers_input {
+  border: none;
+  border-radius: 2.375rem;
+}
+
+.right_arrow_icon_search {
+  padding: 3px 9px;
+  background: #0D47A1;
+  border-radius: 100%;
+  color: white;
+  /* margin-right: 10px; */
+  border: none;
+}
+
+.Best_Arthritis {
+  font-family: Source Serif Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0C2F62;
+  margin: 20px 0 12px 0;
+}
+
+.part_text {
+  color: #0072C6;
+  font-style: italic;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.card_img_container {
+  max-width: 120px;
+  height: 170px;
+  background: #EAF8FF;
+  border-radius: 20px;
+}
+
+.card_img_container img {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  font-family: Source Serif Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ratinng_star {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #005B9E;
+  background-color: #DAFBFF;
+  width: 41px;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.identity_age {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6E6E6E;
+}
+
+.education {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #041022;
+}
+
+.experience {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.enquire_btn {
+  background-color: #0D47A1;
+}
+
+.enquire_btn_container button {
+  font-size: 2rem;
+}
+
+
+.bg_color {
+  background-color: #EAF8FF;
+  border-radius: 10px;
+  /* height: 10rem; */
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 5px;
+}
+
+.bg_color img {
+  width: 100%;
+  height: 135px;
+  border-radius: 8px;
+}
+
+.education_icon,
+.experience_icon,
+.star_rating_icon {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+
+
+
+/* form css start */
+
+
+.from_container {
+  max-width: 380px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+}
+
+
+
+.form_btn {
+  background-color: #1d2150 !important;
+  border: none;
+  color: #feab0c;
+  font-size: 1.5rem !important;
+  padding: 0.4rem 3.9rem;
+}
+
+.HomePage_Form {
+  padding: 1.5rem 0.75rem;
+  font-size: 15px;
+  /* padding: 1.375rem 0.75rem; */
+}
+
+.Horizontal_line hr {
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  opacity: 0.25 !important;
+  width: 100%;
+}
+
+.Available_service_container {
+  display: flex;
+}
+
+.Available_services {
+  font-family: "poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #1d2150;
+}
+
+.care {
+  background-color: #feab0c91;
+  font-size: 10px;
+  font-family: "poppins", sans-serif;
+  margin-right: 9px;
+  padding: 4px 9px;
+  color: #1d2150;
+  border-radius: 2px;
+}
+
+.carousel-indicators button {
+  background-color: #1d2150 !important;
+}
+
+.carousel-indicators {
+  bottom: -33px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+
+.Slider_img {
+  max-width: 100%;
+}
+
+.D_none_on_xm{
+  display: none;
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 1.875em;
+  color: #dc3545;
+}
+
+
+
+
+/* form card animation start */
+
+/* .card {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.vibrate {
+  animation: vibrate 0.3s linear infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, -2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+} */
+
+/* form card animation end */
+
+
+
+
+
+/* Media Queries start */
+
+
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .FormSection {
+    margin-top: 25px;
+  }
+
+  .Form_main_container {
+    display: none;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .grid-item {
+    margin: 6px 0px;
+  }
+
+  .card {
+    max-width: 100% !important;
+  }
+
+  .find_caregivers {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+    margin-bottom: 6px;
+  }
+
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+  }
+  .right_arrow_icon_search {
+    margin-right: 0px;
+  }
+
+  .buttons_container{
+    margin-top: 20px;
+  }
+
+  .caregivers_filters_container {
+    border-radius: 48px;
+    border: 1px solid #0d6efd;
+    width: 93%;
+    padding: 0px;
+}
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 407px) {
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 4.9vw;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+}
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+  .find_caregivers {
+    font-family: Source Serif Pro;
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+  }
+
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+  }
+
+  .from_container {
+    width: 32vw;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+  }
+
+  .callus_btn {
+    width: 26vw;
+}
+
+
+.Have_a_query {
+  font-family: Source Serif Pro;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E3500;
+}
+
+.We_are_here {
+  font-family: Source Sans Pro;
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5D671A;
+}
+
+.search_container {
+  margin-right: 20px;
+}
+
+.right_arrow_icon_search {
+  margin-right: 0px;
+}
+
+.buttons_container{
+  margin-top: 20px;
+}
+
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 705px) {
+
+  .Form_main_container {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .find_caregivers {
+    font-family: Source Serif Pro;
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C3C3C;
+  }
+
+  .Best_Arthritis {
+    font-family: Source Serif Pro;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C2F62;
+  }
+
+  .from_container {
+    width: 32vw;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+  }
+
+  .callus_btn {
+    width: 26vw;
+}
+
+
+.Have_a_query {
+  font-family: Source Serif Pro;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2E3500;
+}
+
+.We_are_here {
+  font-family: Source Sans Pro;
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5D671A;
+}
+
+.search_container {
+  margin-right: 20px;
+}
+
+.right_arrow_icon_search {
+  margin-right: 0px;
+}
+
+.buttons_container{
+  margin-top: 20px;
+}
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 700px) {
+
+  .caregivers_filters_container {
+    border-radius: 48px;
+    border: 1px solid #0d6efd;
+    width: 95vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto ;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.CardStyle {
+  padding: 1.5rem 1.5rem 1rem 1.5rem !important;
+  width: 52.5rem !important;
+}
+
+
+.Form_main_container{
+  display: none;
+}
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+.my_body{
+  padding: 8px 0;
+}
+
+.experience {
+  font-family: Source Sans Pro;
+  font-size: 1.6vw;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+  
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 728px) {
+
+  .name {
+    font-family: Source Serif Pro;
+    font-size: 2.1vw;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.star_rating_icon {
+  font-size: 1vw;
+  margin-right: 5px;
+  }
+
+  .ratinng_star {
+    font-family: Inter;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #005B9E;
+    background-color: #DAFBFF;
+    width: 6vw;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.dentity_age {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6E6E6E;
+}
+
+.education {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #041022;
+}
+
+.experience {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.enquire_btn_container button {
+  font-size: 1.8vw;
+}
+
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+  .name {
+    font-family: Source Serif Pro;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 8px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.star_rating_icon {
+  font-size: 1vw;
+  margin-right: 5px;
+  }
+
+  .ratinng_star {
+    font-family: Inter;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #005B9E;
+    background-color: #DAFBFF;
+    width: 5vw;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.dentity_age {
+  font-family: Source Sans Pro;
+  font-size: 2.1vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6E6E6E;
+}
+
+.education {
+  font-family: Source Sans Pro;
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #041022;
+}
+
+.experience {
+  font-family: Source Sans Pro;
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.enquire_btn_container button {
+  font-size: 1.7vw;
+}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+  .callus_btn{
+    font-size: 18px !important;
+  }
+
+  .from_container {
+    max-width: 340px;
+}
+
+.caregivers_filters_container {
+  border-radius: 48px;
+  border: 1px solid #0d6efd;
+  width: 96%;
+  padding: 7px;
+}
+
+.Best_Arthritis {
+  font-family: Source Serif Pro;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0C2F62;
+  margin: 49px 0 12px 0;
+}
+
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .callus_btn{
+    font-size: 2.2rem !important;
+    padding: 10px 10px !important;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1920px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+}
+
+
+
+
+
+/* banner Second only for mobile css start */
+
+@media screen and (min-width:300px) and (Max-width:576px) {
+  .overlay_Banner_second{
+    display: none;
+  }
+
+  .overlay_Banner_second_content {
+    position: absolute;
+    top: 0;
+    left: 11vw;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .Banner_second_heading {
+    font-family: Source Serif Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E6F1F9;
+  }
+
+  .Banner_second_description {
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B0D3ED;
+  }
+
+  .image_container_second_banner img {
+    height: 150px;
+}
+
+.Banner_second_btn_section button{
+  padding: 7px 40px;
+  }
+
+  .D_none_on_xm{
+    display: block;
+    margin-bottom: 25px;
+  }
+
+
+}
+
+/* banner Second only for mobile css end */
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px) and (max-width: 946px) {
+  .care {
+    padding: 4px 2px;
+  }
+
+  .from_container {
+    padding: 37px 10px 60px 10px;
+  }
+} */
+
+/* Media Queries end */
+
+/* form css end */

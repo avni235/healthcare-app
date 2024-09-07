@@ -1,0 +1,7 @@
+
+
+@media screen and (min-width:300px) and (max-width:705px) {
+    .sm_M_auto{
+        justify-content: center;
+    }
+}

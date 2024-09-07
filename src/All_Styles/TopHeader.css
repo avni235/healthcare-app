@@ -1,0 +1,492 @@
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.Max_width80{
+    max-width: 93%;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 8px;
+    left: -.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .Header_bg{
+    max-width: 100%;
+  }
+  .phone_icon span{
+    text-decoration: none;
+    color: #0C2F62;
+  }
+
+/* This is for number img start */
+
+.numberImg{
+    max-width: 19%;
+  }
+
+  .numberImg_mobile{
+    max-width: 100%;
+  }
+
+/* This is for number img end */
+
+/* This is for logo img start */
+
+  .overlay_logo {
+    position: absolute;
+    top: 0;
+    left: 45px;
+    width: 13%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .image_container_logo{
+    max-width: 100%;
+    color: white;
+  }
+  
+
+/* This is for logo img end */
+  
+/* This is for number start */
+
+  .overlay_number {
+    position: absolute;
+    top: 3.5vw;
+    left: 73vw;
+    width: 20%;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #0C2F62;
+    font-family: Source Serif Pro;
+    font-weight: 400;
+    font-size: 1.3vw;
+  }
+  .numberImg_mobile{
+    display: none;
+  }
+  .dialar_pad{
+    text-decoration: none;
+    color: #0C2F62;
+  }
+  .dialar_pad:hover{
+    color: #0C2F62;
+  }
+/* This is for number start */
+
+
+
+/* media queries start */
+
+
+@media screen and (min-width:300px) and (max-width:576px) {
+  
+  .overlay_number {
+    top: 11.5vw;
+    left: 75vw;
+    width: 20%;
+    height: 0;
+    font-size: 5.3vw;
+}
+.overlay {
+  top: 2vw;
+  left: 73vw;
+  width: 18vw;
+  height: 100%;
+}
+
+  .overlay_logo {
+    top: 0;
+    left: 15px;
+    width: 32%;
+    height: 100%;
+   
+  }
+
+  .Header_bg {
+    max-width: 100%;
+    height: 62px;
+}
+.Top_header_number{
+  display: none;
+}
+.numberImg{
+  display: none;
+}
+.numberImg_mobile{
+  display: block;
+}
+   
+}
+
+
+@media screen and (min-width:300px) and (max-width:315px) {
+  .overlay_number {
+    top: 12.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 5.3vw;
+}
+}
+
+@media screen and (min-width:370px) and (max-width:576px) {
+
+  .overlay_number {
+   top: 10.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 5.3vw;
+}
+
+.overlay {
+  top: 2vw;
+  left: 71vw;
+  width: 18vw;
+  height: 100%;
+}
+
+}
+
+
+@media screen and (min-width:450px) and (max-width:576px) {
+
+  .overlay_number {
+    top: 8.5vw;
+    left: 73vw;
+    width: 20%;
+    height: 0;
+    font-size: 4.3vw;
+}
+
+.overlay {
+  top: 2vw;
+  left: 69vw;
+  width: 18vw;
+  height: 100%;
+}
+
+}
+
+@media screen and (min-width:516px) and (max-width:576px) {
+
+  .overlay_number {
+    top: 8.5vw;
+    left: 73vw;
+    width: 20%;
+    height: 0;
+    font-size: 4.3vw;
+  }
+
+.overlay {
+  top: 2vw;
+  left: 68vw;
+  width: 18vw;
+  height: 100%;
+}
+
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  
+  .overlay_number {
+    top: 3.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay {
+    top: 4px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 15px;
+    width: 13%;
+    height: 100%;
+   
+  }
+   
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  
+  .overlay_number {
+    top: 3.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay {
+    top: 4px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 15px;
+    width: 13%;
+    height: 100%;
+   
+  }
+   
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  
+  .overlay_number {
+    top: 3.5vw;
+    left: 74vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+  
+  .overlay_number {
+    top: 3.1vw;
+    left: 72vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+}
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 4px;
+  left: -3.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+   
+}
+
+
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+  
+  .overlay_number {
+    top: 3.2vw;
+    left: 73vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay {
+    top: 4px;
+    left: -29px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+@media screen and (min-width:1600px) and (max-width:1700px) {
+  .numberImg {
+    width: 19%;
+}
+
+
+  .overlay_number {
+    top: 3.1vw;
+    left: 75vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+   
+}
+
+
+@media screen and (min-width:1700px) and (max-width:1800px) {
+  
+  .numberImg {
+    width: 19%;
+}
+
+  .overlay_number {
+    top: 3.1vw;
+    left: 75vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+
+
+   
+}
+
+@media screen and (min-width:1800px) and (max-width:1920px) {
+  
+  .numberImg {
+    width: 19%;
+}
+
+  .overlay_number {
+    top: 3.1vw;
+    left: 73vw;
+    width: 20%;
+    height: 0;
+    font-size: 1.3vw;
+  }
+
+  .overlay_logo {
+    top: 0;
+    left: 50px;
+    width: 13%;
+    height: 100%;
+   
+  }
+  .Header_bg{
+    width: 100%;
+  }
+
+  .image_container_logo {
+    width: 100%;
+    color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 8px;
+  left: -3.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+   
+}
+
+
+
+@media screen and (min-width:1338px) and (max-width:1600px) {}
+/* media queries end */
+
+
+
