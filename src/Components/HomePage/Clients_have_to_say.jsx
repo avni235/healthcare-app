@@ -109,28 +109,6 @@ const Clients_have_to_say = () => {
       </div>
     </div>
   </div>
-
-  {/* Fourth Card */}
-  <div className="Third_card1 mt-5 mx-auto w-full md:w-auto flex justify-center">
-    <div className="image-container_clients_have_to_say relative">
-      <img src={Testimonial_Blob} alt="Testimonial_Blob" className="w-full" />
-      <div className="overlay_clients_have_to_say absolute inset-0 flex items-center justify-center bg-opacity-50">
-        <div className="clients_have_to_say_content p-4">
-          Needed an attendant for a week for post-surgical assistance (ward boy type work). The person allocated was punctual, polite, and generally did the job well. Quite happy with the services provided.
-        </div>
-      </div>
-      <div className="overlay_clients_have_to_say_img absolute bottom-4 left-4">
-        <img src={client_1} alt="client-1" className="rounded-full" />
-      </div>
-      <div className="overlay_clients_have_to_say_icon absolute top-4 right-4">
-        <img src={qout1} alt="qout1" />
-      </div>
-      <div className="overlay_clients_have_to_say_name absolute bottom-4 right-4 text-right">
-        <div className="client_name">Swati Saxena</div>
-        <div className="client_location">Mumbai</div>
-      </div>
-    </div>
-  </div>
 </div>
 
           

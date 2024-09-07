@@ -181,6 +181,8 @@ color: #002A7B;
   font-family: Source Serif Pro;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: -210px;
+  background-color: #f8fcff;
 }
 
 .aboutUs_discription1 {
@@ -194,11 +196,24 @@ color: #002A7B;
   font-size: 14px;
   font-weight: 400;
 }
-
+.image_container_aboutUs{
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #f8fcff;
+  margin-top: 0px;
+}
 .aboutUS_img img{
   width: 100%;
+  
 }
-
+.caregiver_aboutUs_container{
+  margin-bottom: -20px;
+  background-color: #f8fcff;
+}
+.aboutUs_caregiver_overlay_container{
+  background-color: #f8fcff;
+  margin-bottom: -31px;
+}
 .overlay_aboutUs1 {
   position: absolute;
   top: 9px;
