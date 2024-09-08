@@ -26,33 +26,7 @@ const Search_Form = (props) => {
   // Calling on number API start
 
 
-  const apiUrl = 'https://admin.care24.co.in/leadmanager/api/lead/';
   
-  const headers = {
-    'Authorization': 'Token 11a839fb7483b8778f14567f9e24c3ebd973af6d',
-    'Cookie': 'csrftoken=EmQhD5qgJZomFzSARRsCoyJv18qWowpQu2JqF9YWEDXw4WtKX9cvZyuUCyAboeVG; sessionid=1czu79h19smorqth4umjd2qx125y6lpv',
-    'Content-Type': 'application/x-www-form-urlencoded',
-  };
-  
-  const formData = new URLSearchParams();
-  formData.append('cust_name', name);
-  formData.append('phone', mobile);
-  formData.append('city', '1');
-  formData.append('service', '3');
-  formData.append('c24service', 'A');
-  formData.append('lead_type', '4');
-  
-  const handleClick = () => {
-    axios.post(apiUrl, formData, { headers })
-      .then(response => {
-        // Handle successful response
-        console.log(response.data);
-      })
-      .catch(error => {
-        // Handle error
-        console.error(error);
-      });
-  };
   
 
   // Calling on number API end
